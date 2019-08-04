@@ -9,4 +9,6 @@ public class SpringbootDubboServerApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootDubboServerApplication.class, args);
 	}
+
+
 }

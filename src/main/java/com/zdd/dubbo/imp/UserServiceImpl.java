@@ -1,21 +1,20 @@
 package com.zdd.dubbo.imp;
 
+import com.alibaba.dubbo.common.utils.StringUtils;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.zdd.dubbo.UserService;
 
-/**
- * @author dalaoyang
- * @Description
- * @project springboot_learn
- * @package com.dalaoyang.dubbo.imp
- * @email yangyang@dalaoyang.cn
- * @date 2018/6/14
- */
 @Service(version = "1.0.0")
-public class HelloServiceImpl implements UserService {
+public class UserServiceImpl implements UserService {
 
     @Override
-    public String SayHello(String name) {
-        return "Hello , "+name;
+    public String check(String name) {
+        if(StringUtils.isBlank(name)){
+            return "empty";
+        }
+        if(name.equals("zdd")){
+            return "success";
+        }
+        return "fail";
     }
 }
