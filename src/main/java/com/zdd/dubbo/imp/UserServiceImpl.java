@@ -1,7 +1,7 @@
 package com.zdd.dubbo.imp;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.zdd.dubbo.HelloService;
+import com.zdd.dubbo.UserService;
 
 /**
  * @author dalaoyang
@@ -12,7 +12,7 @@ import com.zdd.dubbo.HelloService;
  * @date 2018/6/14
  */
 @Service(version = "1.0.0")
-public class HelloServiceImpl implements HelloService {
+public class HelloServiceImpl implements UserService {
 
     @Override
     public String SayHello(String name) {
