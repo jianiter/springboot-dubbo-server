@@ -1,7 +1,7 @@
-package com.dalaoyang.dubbo.imp;
+package com.zdd.dubbo.imp;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.dalaoyang.dubbo.HelloService;
+import com.zdd.dubbo.HelloService;
 
 /**
  * @author dalaoyang
