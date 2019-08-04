@@ -1,0 +1,3 @@
+2019-08-04 22:20:56,184 INFO c.z.SpringbootDubboServerApplication [main] Starting SpringbootDubboServerApplication on DESKTOP-2J6M5IP with PID 12196 (E:\Code\springboot-dubbo-server\target\classes started by whees in E:\Code\springboot-dubbo-server)
+2019-08-04 22:20:56,191 DEBUG c.z.SpringbootDubboServerApplication [main] Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-08-04 22:20:56,192 INFO c.z.SpringbootDubboServerApplication [main] No active profile set, falling back to default profiles: default

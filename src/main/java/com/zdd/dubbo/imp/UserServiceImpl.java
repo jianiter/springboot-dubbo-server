@@ -1,15 +1,16 @@
 package com.zdd.dubbo.imp;
 
-import com.alibaba.dubbo.common.utils.StringUtils;
-import com.alibaba.dubbo.config.annotation.Service;
+
 import com.zdd.dubbo.UserService;
 
-@Service(version = "1.0.0")
+import com.alibaba.dubbo.config.annotation.Service;
+import org.springframework.util.StringUtils;
+@Service
 public class UserServiceImpl implements UserService {
 
     @Override
     public String check(String name) {
-        if(StringUtils.isBlank(name)){
+        if(StringUtils.isEmpty(name)){
             return "empty";
         }
         if(name.equals("zdd")){
